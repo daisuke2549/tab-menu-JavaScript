@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <ul class="menu">
+          <li><a href="#" class="active" data-id ="about">サイトの概要</a></li>
+          <li><a href="#" data-id ="service">サービス内容</a></li>
+          <li><a href="#" data-id ="contact">お問い合わせ</a></li>
+        </ul>
+
+        <section class="content active" id="about">
+          サイトの概要。サイトの概要。サイトの概要。サイトの概要。サイトの概要。サイトの概要。サイトの概要。サイトの概要。サイトの概要。サイトの概要。サイトの概要。サイトの概要。
+        </section>
+
+        <section class="content" id="service">
+          サービス内容。サービス内容。サービス内容。サービス内容。サービス内容。サービス内容。サービス内容。サービス内容。サービス内容。サービス内容。サービス内容。サービス内容。
+        </section>
+
+        <section class="content" id="contact">
+          お問い合わせ。お問い合わせ。お問い合わせ。お問い合わせ。お問い合わせ。お問い合わせ。お問い合わせ。お問い合わせ。お問い合わせ。お問い合わせ。お問い合わせ。お問い合わせ。
+        </section>
+      </div>
+<script src="./js/main.js"></script>
+<script>
+  console.log("hello world");
+
+
+  let name = "ito";
+  console.log('name');
+
+score = 91;
+
+if(score > 80){
+   console.log("pretty good");
+}else if(score > 70){
+  console.log("good");
+}else{
+  console.log("bad");
+}
+
+for (let i = 0; i < 15; i++) {
+   if( i === 4){
+      console.log("数字の４が登場しました。");
+   }
+  console.log(i);
+}
+
+
+const sum = function(a,b,c){
+  return a+b+c;
+};
+
+
+
+
+console.log(`${sum(111, 2, 3)}`);
+
+let price = 1000;
+
+
+console.log("この商品の値段は"+  price  + "円です");
+
+
+</script>
+</body>
+</html>
